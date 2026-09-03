@@ -9,7 +9,7 @@ export const walkingExplorationKristiansandExcursion: ExcursionData = {
   lead: "Compact walking tour for short port calls and independent cruise passengers: Fiskebrygga fish market, Christiansholm Fortress, waterfront promenade, Bystranda city beach, Otra river, and harbourfront at an easy walking pace.",
   metaTitle: "Walking Exploration of Kristiansand Shore Excursion",
   metaDescription:
-    "Book the Walking Exploration of Kristiansand for cruise passengers. Fiskebrygga fish market, Christiansholm Fortress, Bystranda beach, Otra river, and harbourfront at an easy pace.",
+    "Plan a Walking Exploration of Kristiansand for cruise passengers: Fiskebrygga fish market, Christiansholm Fortress, Bystranda beach, Otra river, and harbourfront at an easy pace.",
   heroImage: siteImages.walkingTour,
   heroImageAlt: imageAlts.walkingCard,
   heroBadge: "Short-port and independent cruise passenger option",
@@ -104,8 +104,8 @@ export const walkingExplorationKristiansandExcursion: ExcursionData = {
     { label: "Kristiansand port guide", href: "/kristiansand-port-guide" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
-  ctaTitle: "Ready to book your walking exploration?",
+  bookingLabel: "Explore this excursion",
+  ctaTitle: "Read the walking exploration notes, then compare other options",
   ctaText:
-    "Discover Fiskebrygga, the fortress, Bystranda beach, and the harbourfront on an easy-paced guided walk.",
+    "Use these notes for an easy-paced city walk, then compare harbour, park and beach options. This site does not sell tickets.",
 };

@@ -9,7 +9,7 @@ export const baneheiaRavnedalenNatureTrekExcursion: ExcursionData = {
   lead: "Kristiansand's nature-focused headline tour through Baneheia forest and Ravnedalen valley with woodland trails, lakes, viewpoints, and coastal-and-woodland scenery at a moderate activity level.",
   metaTitle: "Baneheia & Ravnedalen Nature Trek Shore Excursion",
   metaDescription:
-    "Book the Baneheia and Ravnedalen nature trek from Kristiansand cruise port. Forest trails, lakes, viewpoints, and moderate hiking with return-to-ship friendly timing.",
+    "Plan the Baneheia and Ravnedalen nature trek from Kristiansand cruise port: forest trails, lakes, viewpoints, and moderate hiking with return-to-ship friendly timing.",
   heroImage: siteImages.natureTrekTour,
   heroImageAlt: imageAlts.natureTrekCard,
   heroBadge: "Nature-focused headline tour for active cruise passengers",
@@ -105,8 +105,8 @@ export const baneheiaRavnedalenNatureTrekExcursion: ExcursionData = {
     { label: "One day in Kristiansand", href: "/one-day-in-kristiansand" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
-  ctaTitle: "Ready to book your Baneheia and Ravnedalen trek?",
+  bookingLabel: "Explore this excursion",
+  ctaTitle: "Read the nature trek notes, then compare other Kristiansand options",
   ctaText:
-    "Explore forest trails, lakes, and viewpoints above Kristiansand with a guide who understands cruise timetables.",
+    "Use these notes for Baneheia and Ravnedalen timing, then compare harbour walks and beach days. This site does not sell tickets.",
 };

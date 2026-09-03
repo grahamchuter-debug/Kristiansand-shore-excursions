@@ -104,8 +104,8 @@ export const harbourFortressFishMarketExcursion: ExcursionData = {
     { label: "Kristiansand port guide", href: "/kristiansand-port-guide" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
-  ctaTitle: "Ready to book your harbour walk?",
+  bookingLabel: "Explore this excursion",
+  ctaTitle: "Read the harbour walk notes, then compare other options",
   ctaText:
-    "See Fiskebrygga, Christiansholm Fortress, and the marina on a compact walk built for short port calls.",
+    "Use these notes for a short-port harbour day, then compare parks and beach options. This site does not sell tickets.",
 };

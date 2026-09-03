@@ -9,7 +9,7 @@ export const kristiansandHighlightsExcursion: ExcursionData = {
   lead: "Kristiansand's main city-and-culture tour covering Vest-Agder Cultural Heritage Museum, Høllen coastal village, Domkirke, Fiskebrygga fish market, Christiansholm Fortress, Kilden Performing Arts Centre, and harbour views for first-time visitors.",
   metaTitle: "Kristiansand Highlights Shore Excursion for Cruise Passengers",
   metaDescription:
-    "Book the Kristiansand Highlights shore excursion for cruise passengers. Cultural museum, Høllen village, Domkirke, Fiskebrygga fish market, Christiansholm Fortress, Kilden, and harbour views.",
+    "Plan the Kristiansand Highlights shore day for cruise passengers: cultural museum, Høllen village, Domkirke, Fiskebrygga fish market, Christiansholm Fortress, Kilden, and harbour views.",
   heroImage: siteImages.highlightsTour,
   heroImageAlt: imageAlts.highlightsCard,
   heroBadge: "Main city-and-culture tour for first-time visitors",
@@ -106,8 +106,8 @@ export const kristiansandHighlightsExcursion: ExcursionData = {
     { label: "One day in Kristiansand", href: "/one-day-in-kristiansand" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
-  ctaTitle: "Ready to book your Kristiansand Highlights tour?",
+  bookingLabel: "Explore this excursion",
+  ctaTitle: "Read the Highlights notes, then compare other Kristiansand options",
   ctaText:
-    "See the fish market, fortress, Kilden, and coastal village scenery with a guide who understands cruise timetables.",
+    "Use these notes to understand fit and timing for the city-and-culture day, then compare harbour walks, parks and beach options. This site does not sell tickets.",
 };

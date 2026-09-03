@@ -80,7 +80,7 @@ export function ExcursionDetailPage({ excursion }: ExcursionDetailPageProps) {
               href={excursion.bookingHref ?? siteConfig.shoreExcursionsPath}
               className="btn-primary sm:text-base"
             >
-              {excursion.bookingLabel ?? "Book this excursion"}
+              {excursion.bookingLabel ?? "Explore this excursion"}
             </Link>
             <Link
               href={siteConfig.shoreExcursionsPath}
@@ -252,18 +252,19 @@ export function ExcursionDetailPage({ excursion }: ExcursionDetailPageProps) {
         <section className="border-y bg-navy text-white">
           <div className="mx-auto max-w-3xl px-4 py-12 text-center sm:px-6 sm:py-14">
             <h2 className="text-2xl font-bold sm:text-3xl">
-              {excursion.ctaTitle ?? `Ready to book your ${excursion.title}?`}
+              {excursion.ctaTitle ??
+                `Read the ${excursion.title} notes, then compare other options`}
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-base leading-7 text-white/85 sm:text-lg">
               {excursion.ctaText ??
-                "Secure your place before port day and explore more cruise-friendly excursions designed around your ship's timetable."}
+                "Use these notes to understand fit and timing, then compare other Kristiansand options. This site does not sell tickets."}
             </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
               <Link
                 href={excursion.bookingHref ?? siteConfig.shoreExcursionsPath}
                 className="btn-primary sm:px-8 sm:py-3.5 sm:text-base"
               >
-                {excursion.bookingLabel ?? "Book this excursion"}
+                {excursion.bookingLabel ?? "Explore this excursion"}
               </Link>
               <Link
                 href={siteConfig.shoreExcursionsPath}

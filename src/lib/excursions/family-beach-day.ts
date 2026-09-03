@@ -9,7 +9,7 @@ export const familyBeachDayExcursion: ExcursionData = {
   lead: "Family-friendly shore excursion with Bystranda city beach, Aquarama area, waterfront promenade, relaxed town time, and activities suitable for children on a southern Norway cruise port day.",
   metaTitle: "Kristiansand Family & Beach Day Shore Excursion",
   metaDescription:
-    "Book the Kristiansand Family and Beach Day shore excursion. Bystranda beach, Aquarama area, waterfront promenade, and relaxed town time for families with children.",
+    "Plan a Kristiansand family and beach day for cruise passengers: Bystranda beach, Aquarama area, waterfront promenade, and relaxed town time with children.",
   heroImage: siteImages.familyBeachTour,
   heroImageAlt: imageAlts.familyBeachCard,
   heroBadge: "Family-friendly planning tour for cruise passengers with children",
@@ -105,8 +105,8 @@ export const familyBeachDayExcursion: ExcursionData = {
     { label: "One day in Kristiansand", href: "/one-day-in-kristiansand" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
-  ctaTitle: "Ready to book your family beach day?",
+  bookingLabel: "Explore this excursion",
+  ctaTitle: "Read the family beach day notes, then compare other options",
   ctaText:
-    "Enjoy Bystranda beach, the Aquarama area, and relaxed harbourfront time with family-friendly pacing.",
+    "Use these notes for a relaxed Bystranda day, then compare harbour walks and park trails. This site does not sell tickets.",
 };

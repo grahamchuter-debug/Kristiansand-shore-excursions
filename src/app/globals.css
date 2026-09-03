@@ -1,14 +1,17 @@
 @import "tailwindcss";
 
 :root {
+  /* Southern Norway coastal city: warm sand, soft harbour blue, park green. Not deep western-fjord navy. */
   --background: #faf8f5;
   --foreground: #1a2a3a;
+  --surface: #fffdf9;
   --surface-muted: #f3ece3;
-  --navy: #1a3a5c;
-  --navy-deep: #0f2840;
+  --navy: #1f3d4d;
+  --navy-deep: #152f3b;
   --norway-blue: #2d7eb8;
   --norway-blue-hover: #256aa0;
   --norway-red: #4a7c59;
+  --accent-soft: #8fb8a0;
   --sand-cream: #f3ece3;
   --harbour-mist: #e8eef2;
   --border-light: #d9cfc4;
@@ -60,7 +63,9 @@ body {
 }
 
 .btn-primary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 9999px;
   background-color: var(--norway-blue);
   padding: 0.625rem 1.5rem;
@@ -75,7 +80,9 @@ body {
 }
 
 .btn-secondary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 9999px;
   border: 1px solid rgb(255 255 255 / 0.35);
   background-color: rgb(255 255 255 / 0.1);
@@ -106,6 +113,26 @@ body {
   background-color: var(--norway-blue-hover);
 }
 
+.btn-outline-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border-light);
+  background: transparent;
+  padding: 0.625rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--foreground);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.btn-outline-dark:hover {
+  border-color: var(--norway-blue);
+  background: var(--surface);
+}
+
 .page-hero {
   background-size: cover;
   background-position: center;
@@ -115,10 +142,26 @@ body {
 .page-hero-overlay {
   background: linear-gradient(
     180deg,
-    rgb(15 40 64 / 0.78) 0%,
-    rgb(26 58 92 / 0.62) 50%,
-    rgb(74 124 89 / 0.35) 100%
+    rgb(21 47 59 / 0.72) 0%,
+    rgb(31 61 77 / 0.55) 45%,
+    rgb(74 124 89 / 0.38) 100%
   );
+}
+
+.hero-eyebrow,
+.section-eyebrow {
+  letter-spacing: 0.16em;
+}
+
+.hero-eyebrow {
+  color: var(--accent-soft);
+}
+
+.section-eyebrow {
+  color: var(--norway-blue);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .badge-accent-red {
