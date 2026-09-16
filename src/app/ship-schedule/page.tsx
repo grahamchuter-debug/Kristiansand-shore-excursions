@@ -62,8 +62,9 @@ export default function ShipScheduleHubPage() {
         <p className="mt-4 text-base leading-7 text-slate-700">
           This local timetable is filtered from the Norway Shore Excursions master
           schedule: {kristiansandScheduleIntegrity.total} Kristiansand calls,{" "}
-          {kristiansandScheduleIntegrity.byYear["2026"] ?? 0} in 2026 and{" "}
-          {kristiansandScheduleIntegrity.byYear["2027"] ?? 0} in 2027, across{" "}
+          {kristiansandScheduleIntegrity.byYear["2026"] ?? 0} in 2026,{" "}
+          {kristiansandScheduleIntegrity.byYear["2027"] ?? 0} in 2027 and{" "}
+          {kristiansandScheduleIntegrity.byYear["2028"] ?? 0} in 2028, across{" "}
           {kristiansandScheduleIntegrity.uniqueShips} ships.
         </p>
       </section>
